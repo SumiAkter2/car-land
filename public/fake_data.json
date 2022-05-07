@@ -5,7 +5,7 @@
       "picture": "pexels-mike-170811.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
-      "name": " addmision"
+      "name": " Luxury Car"
     },
     {
       "_id": 2,
@@ -13,7 +13,7 @@
       "picture": "pexels-mike-170811.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
-      "name": " addmision"
+      "name": " Luxury Car"
     },
     {
       "_id": 3,
@@ -21,7 +21,7 @@
       "picture": "pexels-mike-170811.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
-      "name": " addmision"
+      "name": " Luxury Car"
     },
     {
       "_id": 4,
@@ -29,7 +29,7 @@
       "picture": "pexels-mike-170811.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
-      "name": " addmision"
+      "name": " Luxury Car"
     },
     {
       "_id": 5,
@@ -37,7 +37,7 @@
       "picture": "pexels-mike-170811.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
-      "name": " addmision"
+      "name": " Luxury Car"
     },
     {
       "_id": 6,
@@ -45,6 +45,6 @@
       "picture": "pexels-mike-170811.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
-      "name": " addmision"
+      "name": " Luxury Car"
     }
   ]
