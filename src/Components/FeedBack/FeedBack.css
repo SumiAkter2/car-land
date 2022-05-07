@@ -1,0 +1,30 @@
+.feedback-div img{
+border-radius: 50%;
+width: 80px;
+position: absolute;
+height: 80px;
+overflow: hidden;
+top: calc(-80px/2);
+left: calc(50%-40px);
+
+}
+.feedback-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.feedBack:before{
+content: '';
+position: fixed;
+width: 100vw;
+height: 100vh;
+background-image: url('../../../public/businessman1.jpg');
+background-position: center center;
+
+}

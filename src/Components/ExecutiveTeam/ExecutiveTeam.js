@@ -10,7 +10,7 @@ const ExecutiveTeam = () => {
         <div className="col">
           <div className="card ">
             <img src="businessman1.jpg" className="card-img-top" alt="..."/>
-            <div class="card-footer">
+            <div className="card-footer">
        
        </div>
             <div className="card-body bg-color">
@@ -22,7 +22,7 @@ const ExecutiveTeam = () => {
         <div className="col">
           <div className="card ">
             <img src="businessman3.jpg" className="card-img-top" alt="..."/>
-            <div class="card-footer">
+            <div className="card-footer">
        
        </div>
             <div className="card-body bg-color">
@@ -34,7 +34,7 @@ const ExecutiveTeam = () => {
         <div className="col">
           <div className="card ">
             <img src="businessman2.jpg" className="card-img-top" alt="..."/>
-            <div class="card-footer">
+            <div  className="card-footer">
        
        </div>
             <div className="card-body bg-color">
@@ -46,7 +46,7 @@ const ExecutiveTeam = () => {
         <div className="col ">
           <div className="card ">
             <img src="businessman4.jpg" className="card-img-top" alt="..."/>
-            <div class="card-footer">
+            <div  className="card-footer">
        
        </div>
        

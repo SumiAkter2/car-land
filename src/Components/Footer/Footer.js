@@ -67,14 +67,14 @@ const Footer = () => {
             </div>
             {/* <div className='text-white py-3  text-center'> */}
 
-            <div class="card  text-white py-3  text-center bg-dark" >
-                <div class="row g-0">
-                    <div class="col-md-4">
+            <div  className="card  text-white py-3  text-center bg-dark" >
+                <div  className="row g-0">
+                    <div  className="col-md-4">
                         <p>THE CAR LAND</p>
                         <p><small>ALL RIGHTS RESERVED &copy; {getYear()}</small></p>
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body ">
+                    <div  className="col-md-8">
+                        <div  className="card-body ">
                         <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
                         <br />
                         <FontAwesomeIcon icon={faFaceAngry }> </FontAwesomeIcon>
