@@ -8,20 +8,19 @@ import './App.css';
 import Footer from './Components/Footer/Footer';
 import NotFound from './Components/NotFound/NotFound';
 import { Navbar } from 'react-bootstrap';
+import Services from './Components/Services/Services';
 
 function App() {
   return (
    
    <div>
-    
-     
      <Routes>
        <Route path='/' element={ <Home></Home>}></Route>
-       {/* <Route path='/home' element={ <Home></Home>}></Route> */}
+        {/* <Route path='/home' element={ <Home></Home>}></Route>  */}
        <Route path='/shop' element={<Shop></Shop>}></Route>
        <Route path='/contact' element={<Contact></Contact>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
-     </Routes>
+      </Routes> 
 
      <Footer></Footer>
    </div>
