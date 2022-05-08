@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faFaceAngry } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faFaceAngry, faGlobe, faPhone } from '@fortawesome/free-solid-svg-icons';
 import './Footer.css';
 
 
@@ -51,15 +51,10 @@ const Footer = () => {
                         <h5 className="card-title">OUR SELSMAN</h5>
                         <ul className="card-text">
                             <li>Mr. Javed</li>
-                            <li>Mr. Javeds</li>
-                            <li>Mr. Javed</li>
-                            <li>Mr. Javed</li>
-                            <li>Mr. Javeded</li>
-                            <li>Mr. Javed</li>
-                            <li>Mr. Javed</li>
-                            <li>Mr. Javedg</li>
-                            <li>Mr. Javed</li>
-                            <li>Mr. Javedss</li>
+                            <li>Mr. Janayed</li>
+                            <li>Mr. Minar</li>
+                            <li>Mr. korim</li>
+                           
                         </ul>
 
                     </div>
@@ -68,16 +63,18 @@ const Footer = () => {
             {/* <div className='text-white py-3  text-center'> */}
 
             <div  className="card  text-white py-3  text-center bg-dark" >
-                <div  className="row g-0">
-                    <div  className="col-md-4">
+                <div  className="row g-0 d-flex align-items-center">
+                    <div  className="col-md-4 ">
                         <p>THE CAR LAND</p>
                         <p><small>ALL RIGHTS RESERVED &copy; {getYear()}</small></p>
                     </div>
-                    <div  className="col-md-8">
+                    <div  className="col-md-8 ">
                         <div  className="card-body ">
-                        <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
+                       <p> <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>980-123-45</p>
                         <br />
-                        <FontAwesomeIcon icon={faFaceAngry }> </FontAwesomeIcon>
+                        <p >
+                        <FontAwesomeIcon icon={faGlobe }> </FontAwesomeIcon>www.thecarland.com
+                        </p>
 
                         </div>
                     </div>
@@ -89,5 +86,5 @@ const Footer = () => {
     );
 };
 
-// style="max-width: 540px;
+
 export default Footer;

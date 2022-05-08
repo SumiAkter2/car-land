@@ -1,22 +1,21 @@
 import React, { useState } from 'react';
 import { Form } from 'react-bootstrap';
 import './LogIn.css'
-import {  useSignInWithGoogle } from 'react-firebase-hooks/auth';
-import { useNavigate } from 'react-router-dom';
+
 import Spinner from '../Spinner/Spinner';
 import auth from '../../firebase.init';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const LogIn = () => {
   
-    const [googleSignIn, user, loading, error] = useSignInWithGoogle(auth);
-    const navigate = useNavigate();
+   
     
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    // const SignIn = () => {
+ 
     const [
-        signInWithEmailAndPassword,
+        signInWithEmailAndPassword, user, loading, error
         
       ] = useSignInWithEmailAndPassword(auth);
     
@@ -30,7 +29,7 @@ const LogIn = () => {
             </div>
           );
         }
-    let errorElement;
+    
 
     if(loading ){
         return (<Spinner ></Spinner>);
@@ -69,10 +68,7 @@ const LogIn = () => {
                 <p className='mt-2 px-2'>Or</p>
                 <div style={{ height: '1px' }} className='bg-dark w-25'></div>
             </div>
-{/*======================= Google sign In================ */}
-          <div className='login-logo text-center'>
-       <button onClick={() => googleSignIn()} className='border-0 btn  w-25 mx-auto'>  <img  src="Google.jpg" alt="google-image" />oogle Sign In</button>
-          </div>
+<SocialLogin></SocialLogin>
         </div>
     );
 };

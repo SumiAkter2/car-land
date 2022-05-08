@@ -5,7 +5,8 @@
       "picture": "car.jpg",
       "description": "The clear design of the Audi Q4 e-tron Sportback, with its focused front and powerful rear.  ",
       "quantity": 50,
-      "name": "Audi"
+      "name": "Audi",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -13,7 +14,8 @@
       "picture": "car1.jpg",
       "description": "The Maserati Super Sports Car that pushes the boundaries of time.",
       "quantity": 10,
-      "name": " Maserati"
+      "name": " Maserati",
+      "suppliername":"Korim"
     },
     {
       "_id": 3,
@@ -21,7 +23,8 @@
       "picture": "car2.jpg",
       "description": "First-class travel takes on a fine new form with the premiere of Mercedes-Maybach GLS 600. ",
       "quantity": 40,
-      "name": " Mercedes-Benz"
+      "name": " Mercedes-Benz",
+      "suppliername":"Korim"
     },
     {
       "_id": 4,
@@ -29,7 +32,8 @@
       "picture": "car3.jpg",
       "description": "The engine options have always been limited to either a 2-liter or 2.3-liter engine and two trim levels.  ",
       "quantity": 22,
-      "name": " Mazda"
+      "name": " Mazda",
+      "suppliername":"Korim"
     },
     {
       "_id": 5,
@@ -37,7 +41,8 @@
       "picture": "car4.jpg",
       "description": "Prius Prime offers the best of both worlds: impressive fuel economy and the flexibility of electric charging. ",
       "quantity": 60,
-      "name": "Toyota"
+      "name": "Toyota",
+      "suppliername":"Korim"
     },
     {
       "_id": 6,
@@ -45,7 +50,8 @@
       "picture": "car5.jpg",
       "description": "The CS or S. However, all models are restricted to front-wheel-drive if you want a manual transmission.",
       "quantity": 20,
-      "name": " Ford"
+      "name": " Ford",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -53,7 +59,8 @@
       "picture": "car3.jpg",
       "description": "Discover how much you can save with this plug-in hybrid ability to drive solely on electricity.",
       "quantity": 50,
-      "name": " Nissan"
+      "name": " Nissan",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -61,7 +68,8 @@
       "picture": "car6.jpg",
       "description": "Its really awesome car and all-wheel-drive for those looking for an automatic.",
       "quantity": 45,
-      "name": " Infinity"
+      "name": " Infinity",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -69,7 +77,8 @@
       "picture": "car7.jpg",
       "description": "This cars gives a characteristic shape to the future of electric mobility.",
       "quantity": 33,
-      "name": " Aston Martin"
+      "name": " Aston Martin",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -77,7 +86,8 @@
       "picture": "car8.jpg",
       "description": "The Car is good look and seamlessly switch to hybrid mode when the charge runs out.",
       "quantity": 40,
-      "name": " Honda"
+      "name": " Honda",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -85,7 +95,8 @@
       "picture": "car9.jpg",
       "description": "Dr.-Ing. h.c. F. Porsche AG, usually shortened to Porsche, is a German automobile manufacturer specializing in high-performance sports cars.",
       "quantity": 10,
-      "name": " Porsche"
+      "name": " Porsche",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -93,7 +104,8 @@
       "picture": "pexels-mike-170811.jpg",
       "description": "Chevrolet, colloquially referred to as Chevy and formally the Chevrolet Motor Division of General Motors Company.",
       "quantity": 20,
-      "name": " Chevrolet"
+      "name": " Chevrolet",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -101,7 +113,8 @@
       "picture": "car11.jpg",
       "description": " Land Rover, since 2008 a subsidiary of India's Tata Motors. JLR currently builds Land Rovers in Brazil, Slovakia, and the United Kingdom.",
       "quantity": 30,
-      "name": " Land-Rover"
+      "name": " Land-Rover",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -109,7 +122,8 @@
       "picture": "car12.jpg",
       "description": "Tesla, Inc. is an American automotive and clean energy company based in Austin, Texas. Tesla designs and manufactures electric vehicles,.",
       "quantity": 20,
-      "name": "Tesla"
+      "name": "Tesla",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -117,7 +131,8 @@
       "picture": "car13.jpg",
       "description": "Bentley Motors Limited is a British manufacturer and marketer of luxury cars and SUVs, and a subsidiary of the Volkswagen Group .",
       "quantity": 33,
-      "name": " Bentley"
+      "name": " Bentley",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -125,7 +140,8 @@
       "picture": "car14.jpg",
       "description": "Lexus is the luxury vehicle division of the Japanese automaker Toyota. The Lexus brand is marketed in more than 90 .",
       "quantity": 15,
-      "name": " Lexus"
+      "name": " Lexus",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -133,7 +149,8 @@
       "picture": "car15.jpg",
       "description": "The Cadillac Motor Car Division is a division of the American automobile manufacturer General Motors Company that designs and builds luxury vehicles..",
       "quantity": 22,
-      "name": " cadillac"
+      "name": " cadillac",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -141,7 +158,8 @@
       "picture": "car16.jpg",
       "description": "Volkswagen S.p.A. is an Italian luxury sports car manufacturer based in aaranello, Italy. Founded by Enzo Ferrari .",
       "quantity": 9,
-      "name": "Volkswagen"
+      "name": "Volkswagen",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -149,7 +167,8 @@
       "picture": "car17.jpg",
       "description": " Ferrari S.p.A. is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari .",
       "quantity": 16,
-      "name": " Ferrari"
+      "name": " Ferrari",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -157,7 +176,8 @@
       "picture": "car18.jpg",
       "description": " Bayerische Motoren Werke AG, commonly referred to as BMW, is a German multinational corporate manufacturer of luxury vehicles.",
       "quantity": 25,
-      "name": " BMW"
+      "name": " BMW",
+      "suppliername":"Korim"
     },
     {
       "_id": 2,
@@ -165,7 +185,8 @@
       "picture": "car19.jpg",
       "description": " With an EPA-estimated 25 miles of driving range in EV Mode on a full charge.",
       "quantity": 11,
-      "name": " Toyota Corolla"
+      "name": " Toyota Corolla",
+      "suppliername":"Korim"
     }
     ,
     {
@@ -174,6 +195,7 @@
       "picture": "pexels-mike-217326.jpg",
       "description": "Take fuel efficiency to the next level by plugging in at home, at work or at any nearby public charging station.",
       "quantity": 10,
-      "name": "Toyota Avalon"
+      "name": "Toyota Avalon",
+      "suppliername":"Korim"
     }
   ]
