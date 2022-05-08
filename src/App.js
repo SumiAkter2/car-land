@@ -7,7 +7,7 @@ import Contact from '../src/Components/Contact/Contact';
 import './App.css';
 import Footer from './Components/Footer/Footer';
 import NotFound from './Components/NotFound/NotFound';
-import Features from './Components/Features/Features';
+
 import About from './Components/About/About';
 import LogIn from './Components/LogIn/LogIn';
 

@@ -4,6 +4,7 @@ import Contact from '../Contact/Contact';
 
 import ExecutiveTeam from '../ExecutiveTeam/ExecutiveTeam';
 import Features from '../Features/Features';
+import LogIn from '../LogIn/LogIn';
 
 import Navbar from '../Navbar/Navbar';
 // import ProgressChart from '../ProgressChart/ProgressChart';
@@ -18,7 +19,7 @@ const Home = () => {
          <About></About>
          <Features></Features>
          <Contact></Contact>
-         
+       
         </div>
     );
 };
