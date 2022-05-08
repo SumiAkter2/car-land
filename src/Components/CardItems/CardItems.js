@@ -3,7 +3,7 @@ import'./CardItems.css';
 
 
 const CardItems = (props) => {
-    const { name, picture, price,description } = props.item;
+    const { name, picture, price,description,quantity } = props.item;
     return (
         <div>
             <div>
@@ -15,6 +15,7 @@ const CardItems = (props) => {
                                     <h5 className="card-title">{name}</h5>
                                     <p className="card-text">{description}</p>
                                <h5>{price}</h5>
+                               <p>Quantity: {quantity}</p>
                                 </div>
                                 <div className="card-footer border-0">
                                    <button className='btn btn-primary'>Submit</button>
