@@ -2,7 +2,7 @@
     {
       "_id": 1,
       "price": "3000 tk",
-      "picture": "car1.jpg",
+      "picture": "car.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
       "name": " Luxury Car"
@@ -10,7 +10,7 @@
     {
       "_id": 2,
       "price": "3000 tk",
-      "picture": "pexels-mike-170811.jpg",
+      "picture": "car3.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
       "name": " Luxury Car"
@@ -18,7 +18,7 @@
     {
       "_id": 3,
       "price": "3000 tk",
-      "picture": "pexels-mike-170811.jpg",
+      "picture": "car9.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
       "name": " Luxury Car"
@@ -26,7 +26,7 @@
     {
       "_id": 4,
       "price": "3000 tk",
-      "picture": "pexels-mike-170811.jpg",
+      "picture": "car5.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
       "name": " Luxury Car"
@@ -34,7 +34,7 @@
     {
       "_id": 5,
       "price": "3000 tk",
-      "picture": "pexels-mike-170811.jpg",
+      "picture": "car7.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
       "name": " Luxury Car"
@@ -42,7 +42,7 @@
     {
       "_id": 6,
       "price": "3000 tk",
-      "picture": "pexels-mike-170811.jpg",
+      "picture": "car6.jpg",
       "description": "This is luxury car.its looks beautiful.i love this car very muxh.",
       "quantity": 100,
       "name": " Luxury Car"

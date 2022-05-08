@@ -8,7 +8,7 @@ const CardItems = (props) => {
         <div>
             <div>
                
-            <div className="col container">
+            <div className="col container items">
                     <div className="card h-100 border-0 ">
                             <img src={picture} className="card-img-top " alt="..."/>
                                 <div className="card-body ">
