@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 import ExecutiveTeam from '../ExecutiveTeam/ExecutiveTeam';
 
@@ -13,8 +14,8 @@ const Home = () => {
             <Navbar></Navbar>
             <Services></Services>
             <ExecutiveTeam></ExecutiveTeam>
-         {/* <ProgressChart></ProgressChart> */}
          <About></About>
+         <Contact></Contact>
         </div>
     );
 };

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Bar, BarChart, XAxis, YAxis } from 'recharts';
+import './ProgressChart.css'  
+
 
 const ProgressChart = () => {
     const data = [
@@ -30,7 +32,7 @@ const ProgressChart = () => {
         },
         {
           name: 'Sales',
-          uv: 7000,
+          uv: 6000,
           pv: 3800,
           amt: 2500,
         },
@@ -53,7 +55,7 @@ const ProgressChart = () => {
 >
     <XAxis />
     <YAxis type="category" dataKey="name" />
-          <Bar dataKey="uv" fill="red" />
+          <Bar dataKey="uv" fill="gray" />
         </BarChart>
       {/* </ResponsiveContainer> */}
         </div>

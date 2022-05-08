@@ -1,10 +1,36 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faContactBook, faGlobe,   faMailBulk, faPhone, faShop,   } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
-            <h1>Contact</h1>
+        <div className='my-5'>
+            <h1 className='my-5 ps-2 text-center'><FontAwesomeIcon icon={faContactBook}></FontAwesomeIcon> Contact Us</h1>
            
+           <div>
+           <div class="container">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3">
+    <div class="col">
+      <div class="p-3 border bg-light"><h4 className='d-flex ps-2'><FontAwesomeIcon icon={faShop}></FontAwesomeIcon>ShowRoom</h4>
+      <address>0/2 street road,US</address>
+      </div>
+    </div>
+    <div class="col">
+    <div class="p-3 border bg-light"><h4 className='d-flex ps-2'><FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>Phone</h4>
+    <p>980-45-678</p></div>
+    </div>
+    <div class="col">
+    <div class="p-3 border bg-light"><h4 className='d-flex ps-2'><FontAwesomeIcon icon={faGlobe}></FontAwesomeIcon>Web</h4>
+  <p className='text-danger'>www.thecarland.com</p></div>
+    </div>
+   
+    <div class="col">
+    <div class="p-3 border bg-light"><h4 className='d-flex ps-2'><FontAwesomeIcon icon={faMailBulk}></FontAwesomeIcon>Email</h4>
+    <p className='text-danger'>thecarland@gamil.com</p></div>
+    </div>
+  </div>
+</div>
+           </div>
         </div>
     );
 };
