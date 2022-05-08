@@ -60,8 +60,7 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
--webkit-filter: blur(10px);
--moz-filter:blur(10px);
+
 
 
 } 

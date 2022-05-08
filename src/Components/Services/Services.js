@@ -4,7 +4,7 @@ import UseItems from '../Hooks/UseItems';
 import './Services.css'
 
 const Services = () => {
-    const [items, setItems] = UseItems();
+    const [items] = UseItems();
     return (
         <div>
             <div className="container overflow-hidden">

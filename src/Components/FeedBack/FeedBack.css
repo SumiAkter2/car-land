@@ -1,4 +1,4 @@
-/* .feedback-div img{
+.feedback-div img{
 border-radius: 50%;
 width: 80px;
 position: absolute;
@@ -26,5 +26,6 @@ width: 100vw;
 height: 100vh;
 background-image: url('../../../public/businessman1.jpg');
 background-position: center center;
-
-} */
+-webkit-filter: blur(10px);
+-moz-filter:blur(10px);
+}

@@ -1,14 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { Components } from 'react';
-import { Route, Routes,BrowserRouter  } from 'react-router-dom';
+import React from 'react';
+import { Route, Routes  } from 'react-router-dom';
 import Home from '../src/Components/Home/Home';
 import Shop from '../src/Components/Shop/Shop';
 import Contact from '../src/Components/Contact/Contact';
 import './App.css';
 import Footer from './Components/Footer/Footer';
 import NotFound from './Components/NotFound/NotFound';
-import { Navbar } from 'react-bootstrap';
-import Services from './Components/Services/Services';
+
+
 
 function App() {
   return (

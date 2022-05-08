@@ -14,6 +14,7 @@ const CardItems = (props) => {
                                 <div className="card-body ">
                                     <h5 className="card-title">{name}</h5>
                                     <p className="card-text">{description}</p>
+                               <h5>{price}</h5>
                                 </div>
                                 <div className="card-footer border-0">
                                    <button className='btn btn-primary'>Submit</button>

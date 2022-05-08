@@ -1,8 +1,10 @@
 import React from 'react';
+import About from '../About/About';
 
 import ExecutiveTeam from '../ExecutiveTeam/ExecutiveTeam';
-import FeedBack from '../FeedBack/FeedBack';
+
 import Navbar from '../Navbar/Navbar';
+// import ProgressChart from '../ProgressChart/ProgressChart';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -11,7 +13,8 @@ const Home = () => {
             <Navbar></Navbar>
             <Services></Services>
             <ExecutiveTeam></ExecutiveTeam>
-            {/* <FeedBack></FeedBack> */}
+         {/* <ProgressChart></ProgressChart> */}
+         <About></About>
         </div>
     );
 };
