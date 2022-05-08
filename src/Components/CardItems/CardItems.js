@@ -2,9 +2,13 @@ import React from 'react';
 import'./CardItems.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const CardItems = (props) => {
     const { name, picture, price,description,quantity } = props.item;
+    const handleToCart=()=>{
+        console.log('allah');
+    }
     return (
         <div>
             <div>
@@ -19,7 +23,7 @@ const CardItems = (props) => {
                                <p>Quantity: {quantity}</p>
                                 </div>
                                 <div className="card-footer border-0">
-                                   <button className='btn btn-primary'>Submit</button>
+              <Link to='/login' ><button onClick={handleToCart} className='btn btn-primary'>Add To Cart</button> </Link> 
                                 </div> 
                            </div>
                            </div>

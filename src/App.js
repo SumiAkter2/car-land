@@ -24,6 +24,7 @@ function App() {
        <Route path='/contact' element={<Contact></Contact>}></Route>
        <Route path='/about' element={<About></About>}></Route>
        <Route path='/login' element={<LogIn></LogIn>}></Route>
+       
        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes> 
 
