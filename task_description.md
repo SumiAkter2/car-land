@@ -4,11 +4,11 @@ Our company focuses on a warehouse management (inventory management) website. Cu
 We have a sample task for you.
 
 Website Purpose:
-Your website must be related to multiple items warehouse/inventory management websites. Some examples of inventory management could be: managing inventory of any types of products like- grocery stock, spice warehouse, fruits warehouse, books, perfumes, dresses, gym equipment, bikes, electronics (TV, fridge, microwave, laptop, computer, smartphone, etc.), furniture, hiking gears, sports gear, outdoor camping gears, Vehicle/fleet inventory (car, truck, motor bike, bicycle), toys, etc. However, your website can not be a ticket selling or an e-commerce site.
+Your website must be related to multiple items warehouse/inventory management websites. Some examples of inventory management could be: managing inventory of any types of products like- grocery stock, spice warehouse, fruits warehouse, books, perfumes, dresses, gym equipment, bikes, electronics (TV, fridge, microwave, laptop, computer, smartphone, etc.), furniture, hiking gears, sports gear, outdoor camping gears, Vehicle/fleet inventory (car, truck, motor bike, bicycle), toys, etc. However, your website can not be a ticket selling or an e-commerce site.====DONE
 
-Make sure your design and website idea are unique. First, finalize your idea (what website you want to build). Then google the site design or visit themeforest to get your website idea. However, your website can not be related to your previous assignments or any practice project displayed in the course or our conceptual sessions.
+Make sure your design and website idea are unique. First, finalize your idea (what website you want to build). Then google the site design or visit themeforest to get your website idea. However, your website can not be related to your previous assignments or any practice project displayed in the course or our conceptual sessions.========DONE
 
-Make sure your code or design doesn't match any of the projects implemented in our course.
+Make sure your code or design doesn't match any of the projects implemented in our course.=======DONE
 
 You may include this assignment in your final resume, so make sure they are good-looking. And we will have some dedicated marks for the design. Just pay some attention to the design.
 
@@ -19,11 +19,12 @@ Initially, do not spend too much thinking about the design. Just spend 5-10 minu
 
 
 Task Details:
-Home page will have a header (simple navbar), banner, items (inventory items that you are managing. Maximum 6 items), and footer.
+Home page will have a header (simple navbar), banner, items (inventory items that you are managing. Maximum 6 items), and footer.======DONE
 
-Add two extra sections on the home page and the four sections mentioned above. Tips: This is the place to shine. Add something different and unique to make your website looks different than others. And Make them relevant to your website.
+Add two extra sections on the home page and the four sections mentioned above. Tips: This is the place to shine. Add something different and unique to make your website looks different than others. And Make them relevant to your website.=======DONE
 
 You will have six items in the inventory items section. You can put one or more items in a row based on your design. Each article should have a relevant name, image, short description, price, quantity, supplier name, and an update button (button could say: update or manage or stock update, etc.).
+========DO============
 
 Clicking on the button will take the user to the inventory/:id route. This route will be a private/protected route. Please make sure that the private route redirects to the login page if the user is not logged in. After login, the user will be redirected to the page he/she wanted to go to. Also, after reloading the page of a private route, the user is not redirected to the login page.
 
@@ -53,7 +54,7 @@ Add two more routes. one route will be blogs. You will need to answer at least t
 
 13.4 What is the purpose of jwt and how does it work
 
-Create a meaningful 404 page (not found page)
+Create a meaningful 404 page (not found page)==============DONE
 
 
 =====================================================
@@ -62,13 +63,14 @@ Display error when user email address or password don't match.
 Send Email Verification. Don't worry if the email goes to the spam folder or it doesn't go at all. As long as your code is there, you will be fine. Add a link for Password reset (use toast)
 At least 12 meaningful GitHub commits for the client-side and at least 6 meaningful commits for the server-side repository.
 Meaningful readme.md file containing your website name, a short description, link to your live site. And at least five bullet points mention your website's different features and functionality.
-Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional
-Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website have to be relevant. No lorem ipsum please.
+Make the website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional===============DONE
+Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website have to be relevant. No lorem ipsum please.============================DONE
 Clean and organized Code. Organize components and add comments when needed
 Add a loading spinner on the home page and the login/register page. If data is loading, a spinner will be displayed.
 use the Environment variable on both the client and server-side. .env file hides db user and db password and another server-side secret info. Use .gitignore file on the server-side.
 Implement the basic version of the jwt token for email/password based authentication. Upon login, you will create a jwt token and store it on the client-side, and for the My Items page, you will send the token with the call and verify the user. Implementing 401 and 403 is optional. For social login, jwt token implementation is optional.
-Create a stackoverflow profile and post a question or an answer at the time of submitting your assignment. You will submit the link to the stackoverflow question. If you do not want to add a question, you can add an answer on stackoverflow. If you can't add a stackoverflow question/answer, you can submit a github issue to any library that you are using. Your question or answer has to be a meaningful question or answer.
+Create a stackoverflow profile and post a question or an answer at the time of submitting your assignment. You will submit the link to the stackoverflow question. If you do not want to add a question, you can add an answer on stackoverflow. If you can't add a stackoverflow question/answer, you can submit a github issue to any library that you are using. Your question or answer has to be a meaningful question or answer.===============DONE
+==================================
 Optional but highly encourage:
 Implement 401, 403 for JWT of the My Items page. Log out and send the user to the login page for these two statuses.
 Try to use a better-looking confirmation dialogue other than the browser's default confirm.

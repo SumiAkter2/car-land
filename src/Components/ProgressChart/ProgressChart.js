@@ -47,11 +47,11 @@ const ProgressChart = () => {
         <div>
              {/* <ResponsiveContainer width="100%" height="100%"> */}
              <BarChart className='container'
-    width={800}
+    width={500}
     height={400}
     layout="vertical"
     data={data}
-    margin={{top: 5, right: 30, left: 20, bottom: 5}}
+    margin={{top: 5, right: 30, left: 10, bottom: 5}}
 >
     <XAxis />
     <YAxis type="category" dataKey="name" />

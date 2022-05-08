@@ -6,7 +6,7 @@ const Navbar = () => {
         <div >
             <nav className=''>
                 <div className='logo'>
-                    <img src="279001429_1363797134096103_3960368898866996896_n.png" className='nav-logo' alt="" />
+                    {/* <img src="279001429_1363797134096103_3960368898866996896_n.png" className='nav-logo' alt="" /> */}
                     <h1> The Car Land</h1>
                 </div>
                 <ul>
@@ -14,6 +14,7 @@ const Navbar = () => {
                     <li> <CustomLink to='/shop'>Shop</CustomLink></li>
                     <li> <CustomLink to='/contact'>Contact</CustomLink></li>
                     <li> <CustomLink to='/about'>About</CustomLink></li>
+                    <li> <CustomLink to='/login'>Log In</CustomLink></li>
                 </ul>
             </nav>
             <section className='container'>

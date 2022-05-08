@@ -12,7 +12,7 @@ nav{
    height: 100px;
    padding: 10px 90px;
    box-sizing: border-box;
-   background: rgba(0, 0, 0, 0.6);
+   background: rgba(0, 0, 0, .8);
    z-index: 100;
   /* border-bottom: 1px solid white; */
 }
