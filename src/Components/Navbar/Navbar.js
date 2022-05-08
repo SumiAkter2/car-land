@@ -13,6 +13,7 @@ const Navbar = () => {
                     <li> <CustomLink to='/'>Home</CustomLink></li>
                     <li> <CustomLink to='/shop'>Shop</CustomLink></li>
                     <li> <CustomLink to='/contact'>Contact</CustomLink></li>
+                    <li> <CustomLink to='/about'>About</CustomLink></li>
                 </ul>
             </nav>
             <section>

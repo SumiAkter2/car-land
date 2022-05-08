@@ -8,6 +8,7 @@ import './App.css';
 import Footer from './Components/Footer/Footer';
 import NotFound from './Components/NotFound/NotFound';
 import Features from './Components/Features/Features';
+import About from './Components/About/About';
 
 
 
@@ -20,9 +21,10 @@ function App() {
         {/* <Route path='/home' element={ <Home></Home>}></Route>  */}
        <Route path='/shop' element={<Shop></Shop>}></Route>
        <Route path='/contact' element={<Contact></Contact>}></Route>
+       <Route path='/about' element={<About></About>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes> 
-<Features></Features>
+
      <Footer></Footer>
    </div>
   );

@@ -19,7 +19,7 @@ const Services = () => {
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4 container mx-auto">
                
                         {
-                            items.map(item => <CardItems
+                            items.slice(0,6).map(item => <CardItems
                                 key={item._id}
                                 item={item}
 
