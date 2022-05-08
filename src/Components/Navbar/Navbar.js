@@ -16,7 +16,7 @@ const Navbar = () => {
                     <li> <CustomLink to='/about'>About</CustomLink></li>
                 </ul>
             </nav>
-            <section>
+            <section className='container'>
 
             </section>
         </div>
