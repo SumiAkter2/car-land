@@ -7,12 +7,14 @@ import Features from '../Features/Features';
 import LogIn from '../LogIn/LogIn';
 
 import Navbar from '../Navbar/Navbar';
+import ProductDetails from '../ProductDetails/ProductDetails';
 // import ProgressChart from '../ProgressChart/ProgressChart';
 import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
+           
             <Navbar></Navbar>
             <Services></Services>
             <ExecutiveTeam></ExecutiveTeam>

@@ -24,7 +24,7 @@ const CardItems = (props) => {
                             <p>supplier Name: {suppliername}</p>
                         </div>
                         <div className="card-footer border-0">
-                            <Link to='/login' ><button onClick={handleToCart} className='btn btn-primary'>Add To Cart</button> </Link>
+                            <Link to='/login' ><button onClick={handleToCart} className='btn btn-primary'> Update </button> </Link>
                         </div>
                     </div>
                 </div>

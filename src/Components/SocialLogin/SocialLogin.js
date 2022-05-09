@@ -18,7 +18,7 @@ const SocialLogin = () => {
     }
 
     if (user ) {
-        navigate('/home');
+        navigate('/shop');
     }
 
     return (

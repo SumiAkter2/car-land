@@ -6,6 +6,7 @@ import Spinner from '../Spinner/Spinner';
 import auth from '../../firebase.init';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import {  useNavigate } from 'react-router-dom';
 
 const LogIn = () => {
   
@@ -13,7 +14,7 @@ const LogIn = () => {
     
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
- 
+    const navigate = useNavigate();
     const [
         signInWithEmailAndPassword, user, loading, error
         
@@ -22,13 +23,13 @@ const LogIn = () => {
     
       
         
-        if (user) {
-          return (
-            <div>
-              <p>Signed In User: {user.email}</p>
-            </div>
-          );
-        }
+        // if (user) {
+        //   return (
+        //     <div>
+        //       <p>Signed In User: {user.email}</p>
+        //     </div>
+        //   );
+        // }
     
 
     if(loading ){
@@ -43,9 +44,9 @@ const LogIn = () => {
         );
       }
 
-    // if (user  ) {
-    //     navigate('/home');
-    // }
+    if (user  ) {
+        navigate('/shop');
+    }
     return (
         <div className='container my-5'>
            

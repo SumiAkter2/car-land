@@ -9,10 +9,8 @@ const Blogs = () => {
   <Accordion.Item eventKey="0">
     <Accordion.Header>Difference between javascript and nodejs</Accordion.Header>
     <Accordion.Body>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      1.Javascript is a programming language.Node JS is an interpreter and environment for Javascript with some specific useful libraries
+      2.Javascript is mainly using for any client side activity for a web application ,like possible attribute validation . Node JS is
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="1">

@@ -36,7 +36,7 @@ There will be a link (link button) at the bottom of the inventory section of the
 
 ON the Manage Inventories page, there will be a button named add new item. You can change the name of the button if you want. You will be taken to the add inventory item page by clicking on this button. There will be able to add a new inventory item. Feel free to use, react hook form or html5 form. On this page, you can put an input field to put an image url. (For simplicity, you can upload the image to imgbb or other images hosting website and then put the url on the input field)
 
-Implement email/password-based authentication and at least one social login(google, facebook, github, etc.) authentication. Once a user is logged in, the logout/sign-out button should appear on the header, signing out the user once clicked.====do========
+Implement email/password-based authentication and at least one social login(google, facebook, github, etc.) authentication. Once a user is logged in, the logout/sign-out button should appear on the header, signing out the user once clicked.====done
 
 If a user is logged in, he/she will see more options like Manage Items, Add Item, My items, Logout. Based on your website idea, you can change the name of these menu items.
 
