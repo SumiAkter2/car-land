@@ -34,9 +34,7 @@ const Navbar = () => {
 
                 </ul>
             </nav>
-            <section className='container'>
-
-            </section>
+           
         </div>
     );
 };

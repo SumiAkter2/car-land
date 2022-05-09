@@ -1,10 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faContactBook, faGlobe,   faMailBulk, faPhone, faShop,   } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
-
+import './Contact.css'
+import Spinner from '../Spinner/Spinner';
 const Contact = () => {
     return (
-        <div className='my-5'>
+        <div>
+          
+          <div className='my-5 contact'>
             <h1 className='my-5 ps-2 text-center'><FontAwesomeIcon icon={faContactBook}></FontAwesomeIcon> Contact Us</h1>
            
            <div>
@@ -35,6 +38,7 @@ const Contact = () => {
   </div>
 </div>
            </div>
+        </div>
         </div>
     );
 };

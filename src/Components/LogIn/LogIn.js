@@ -48,7 +48,7 @@ const LogIn = () => {
         navigate('/shop');
     }
     return (
-        <div className='container my-5'>
+        <div className='container my-5 contact'>
            
             <Form className='w-50 mx-auto'>
             <h1 className='my-4'>Please Log In</h1>

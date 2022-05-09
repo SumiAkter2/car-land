@@ -7,7 +7,7 @@ import ProductDetails from '../ProductDetails/ProductDetails';
 const Shop = () => {
     const [items] = UseItems();
     return (
-        <div className='container'>
+        <div className='container contact'>
             <h1 className='text-center my-5'>Our Collection</h1>
 
             {/* <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4 container mx-auto"> */}
