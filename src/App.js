@@ -10,6 +10,7 @@ import NotFound from './Components/NotFound/NotFound';
 
 import About from './Components/About/About';
 import LogIn from './Components/LogIn/LogIn';
+import Blogs from './Components/Blogs/Blogs';
 
 
 
@@ -22,6 +23,7 @@ function App() {
        <Route path='/' element={ <Home></Home>}></Route>
         {/* <Route path='/home' element={ <Home></Home>}></Route>  */}
        <Route path='/shop' element={<Shop></Shop>}></Route>
+       <Route path='/blogs' element={<Blogs></Blogs>}></Route>
        <Route path='/contact' element={<Contact></Contact>}></Route>
        <Route path='/about' element={<About></About>}></Route>
        <Route path='/login' element={<LogIn></LogIn>}></Route>
