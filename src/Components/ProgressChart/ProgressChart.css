@@ -1,5 +1,7 @@
 @media screen and (max-width:576px)  {
     BarChart{
-        width: 400px;
+        width: 350px;
+        margin: 0;
+        padding: 0;
     }
 }

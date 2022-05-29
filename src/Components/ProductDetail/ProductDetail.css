@@ -1,0 +1,57 @@
+.detail-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-container input,
+.detail-container button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.detail-container input::placeholder {
+    color: rgb(122, 113, 113);
+}
+
+.detail-container input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.detail-container button {
+    color: white;
+    background: #3db5a1;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.detail-container button:hover {
+    background-color: #338A7B;
+}
+
+.detail-info {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .detail-container {
+        flex-direction: column;
+    }
+
+    .detail-info {
+        width: 100%;
+        padding: 20px;
+    }
+}

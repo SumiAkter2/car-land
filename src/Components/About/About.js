@@ -9,7 +9,7 @@ const About = () => {
         <div className='my-5 container about-div contact'>
            
             <div className="row ">
-                <div className="col-lg-6 col-sm-12">
+                <div className="col-lg-12 col-sm-12">
                     <h1>What Are We</h1>
                     <Accordion defaultActiveKey={['0']} alwaysOpen>
   <Accordion.Item eventKey="0">
@@ -44,10 +44,10 @@ const About = () => {
   </Accordion.Item>
 </Accordion>
                 </div>
-                <div className="col-lg-6 col-sm-12">
-                    <ProgressChart></ProgressChart>
-                </div>
-            </div>
+            {/* <div className="col-lg-6 col-sm-12">
+                  <ProgressChart></ProgressChart> 
+               </div>   */}
+           </div> 
         </div>
     );
 };

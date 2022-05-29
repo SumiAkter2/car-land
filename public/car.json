@@ -1,0 +1,122 @@
+[
+    {
+        "price": "$10000 ",
+        "picture": "https://i.ibb.co/5TgBCVv/car1.jpg",
+        "description": "The Maserati Super Sports Car that pushes the boundaries of time.",
+        "quantity": 10,
+        "name": " Maserati",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$39500",
+        "picture": "https://i.ibb.co/S3pXd0J/car2.jpg",
+        "description": "The Cadillac Motor Car Division is a division of the American automobi...",
+        "quantity": 22,
+        "name": " cadillac",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$32700",
+        "picture": "https://i.ibb.co/xg4B4zN/car3.jpg",
+        "description": "Discover how much you can save with this plug-in hybrid ability to dri...",
+        "quantity": 50,
+        "name": " Nissan",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$9000 ",
+        "picture": "https://i.ibb.co/Wp1SV77/car4.jpg",
+        "description": "The clear design of the Audi Q4 e-tron Sportback, with its focused fro...",
+        "quantity": 50,
+        "name": "Audi",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$28000",
+        "picture": "https://i.ibb.co/LhNfW49/car5.jpg",
+        "description": "Prius Prime offers the best of both worlds: impressive fuel economy an...",
+        "quantity": 60,
+        "name": "Toyota",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$32050",
+        "picture": "https://i.ibb.co/GWf8m44/car6.jpg",
+        "description": "This cars gives a characteristic shape to the future of electric mobil...",
+        "quantity": 33,
+        "name": " Aston Martin",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$51500",
+        "picture": "https://i.ibb.co/YPcKkPf/car7.jpg",
+        "description": "Chevrolet, colloquially referred to as Chevy and formally the Chevrole...",
+        "quantity": 20,
+        "name": " Chevrolet",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$53000",
+        "picture": "https://i.ibb.co/n7GxyXc/car8.jpg",
+        "description": " Bayerische Motoren Werke AG, commonly referred to as BMW, is a German...",
+        "quantity": 25,
+        "name": " BMW",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$49300 ",
+        "picture": "https://i.ibb.co/VHWt7pn/car9.jpg",
+        "description": "Take fuel efficiency to the next level by plugging in at home, at work...",
+        "quantity": 10,
+        "name": "Toyota Avalon",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$35400",
+        "picture": "https://i.ibb.co/dpsd52L/car11.jpg",
+        "description": " Land Rover, since 2008 a subsidiary of India's Tata Motors. JLR curre...",
+        "quantity": 30,
+        "name": " Land-Rover",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$60600",
+        "picture": "https://i.ibb.co/p14nDLB/car12.jpg",
+        "description": "Volkswagen S.p.A. is an Italian luxury sports car manufacturer based i...",
+        "quantity": 9,
+        "name": "Volkswagen",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$39100",
+        "picture": "https://i.ibb.co/93mm3hF/car13.jpg",
+        "description": " Ferrari S.p.A. is an Italian luxury sports car manufacturer based in ...",
+        "quantity": 16,
+        "name": " Ferrari",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$33700",
+        "picture": "https://i.ibb.co/9qfYTk8/car14.jpgg",
+        "description": "The engine options have always been limited to either a 2-liter or 2.3...",
+        "quantity": 22,
+        "name": " Mazda",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$30200",
+        "picture": "https://i.ibb.co/Y0wdxc2/car15.jpg",
+        "description": "First-class travel takes on a fine new form with the premiere of Merce...",
+        "quantity": 40,
+        "name": " Mercedes-Benz",
+        "suppliername": "Korim"
+    },
+    {
+        "price": "$42500",
+        "picture": "https://i.ibb.co/ChLQ5nw/car16.jpg",
+        "description": "Its really awesome car and all-wheel-drive for those looking for an au...",
+        "quantity": 45,
+        "name": " Infinity",
+        "suppliername": "Korim"
+    }
+]

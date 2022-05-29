@@ -16,9 +16,7 @@ const Features = () => {
                         <h4 >Latest Technology</h4>
                         <div className="card-body">
                             <p className="card-title">We provide latest technology in our car like Advanced Driver Assistance Systems,
-                                Automatic Emergency Braking,
-                                Connected Mobile Apps/Digital Key,
-                                Teen Driver Tech.</p>
+                                Automatic Emergency Braking.</p>
                         </div>
                     </div>
                 </div>
@@ -38,9 +36,7 @@ const Features = () => {
                         <h4 className='mt-4'><FontAwesomeIcon icon={faTools}></FontAwesomeIcon></h4>
                         <h4 >Repairing Benefit</h4>
                         <div className="card-body">
-                            <p className="card-title">We provide latest technology in our car like Advanced Driver Assistance Systems,
-                                Automatic Emergency Braking,
-                                Connected Mobile Apps/Digital Key.
+                            <p className="card-title">We provide repairing benefit for our customers.
     </p>
                         </div>
                     </div>
@@ -51,9 +47,7 @@ const Features = () => {
                         <h4 className='mt-4' ><FontAwesomeIcon icon={faDollar}></FontAwesomeIcon></h4>
                         <h4 >Reasonable Price</h4>
                         <div className="card-body ">
-                            <p className="card-title">We provide latest technology in our car like Advanced Driver Assistance Systems,
-                                Automatic Emergency Braking,
-                                Connected Mobile  Teen Driver Tech.
+                            <p className="card-title">For our reasonable price our customer can easily buy it.
                                </p>
                         </div>
                     </div>
@@ -64,10 +58,7 @@ const Features = () => {
                         <h4 className='mt-4' ><FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h4>
                         <h4 >Free Driving Trial</h4>
                         <div className="card-body ">
-                            <p className="card-title ">We provide latest technology in our car like Advanced Driver Assistance Systems,
-                                Automatic Emergency Braking,
-                                Connected Mobile Apps/Digital Key,
-                                Teen Driver Tech.</p>
+                            <p className="card-title ">We provide for any customer free trial driving .</p>
                         </div>
                     </div>
                 </div>
@@ -77,10 +68,7 @@ const Features = () => {
                         <h4 className='mt-4'><FontAwesomeIcon icon={faBank}></FontAwesomeIcon></h4>
                         <h4 >Low Interest Loan</h4>
                         <div className="card-body ">
-                            <p className="card-title">We provide latest technology in our car like Advanced Driver Assistance Systems,
-                                Automatic Emergency Braking,
-                                Connected Mobile Apps/Digital Key,
-                                Teen Driver Tech.</p>
+                            <p className="card-title">We provide low interest loan on our products.</p>
                         </div>
                     </div>
                 </div>

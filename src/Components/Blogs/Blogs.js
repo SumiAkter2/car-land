@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion'
 
 const Blogs = () => {
     return (
-        <div className='container my-5 open contact'>
+        <div className='container my-3 open contact'>
             <h4 className='my-5'>Some Question And Answer Bellow Here:</h4>
             <Accordion defaultActiveKey={['0']} alwaysOpen>
   <Accordion.Item eventKey="0">

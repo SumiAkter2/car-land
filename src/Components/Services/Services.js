@@ -1,14 +1,24 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import CardItems from '../CardItems/CardItems';
-import UseItems from '../Hooks/UseItems';
+import './Services.css';
 
-import './Services.css'
 
 const Services = () => {
-    const [items] = UseItems();
-    useEffect(()=>{
+    const [products, setProducts] = useState([]);
+    useEffect(() => {
+        const url = `http://localhost:5000/product`
+        fetch(url)
+            .then(res => res.json())
+            .then(data => setProducts(data))
+        //'http://localhost:5000/products
+    }, [])
+
+    console.log(products);
+    useEffect(() => {
         AOS.init({
             offset: 200,
             duration: 600,
@@ -18,9 +28,9 @@ const Services = () => {
     })
     return (
         <div>
-             <section className='container'>
+            <section className='container '>
 
-</section>
+            </section>
             <div className="container overflow-hidden">
                 <div className="row ">
                     <div className="col-12">
@@ -30,17 +40,19 @@ const Services = () => {
             </div>
 
 
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4 container mx-auto">
+            <div className="row row-cols-1 row-cols-md-2  row-cols-lg-3  g-4 container mx-auto">
 
                 {
-                    items.slice(0, 6).map(item =><CardItems
-                        key={item._id}
-                        item={item}
+                    products.slice(0, 6).map(product => <CardItems
+                        key={product._id}
+                        product={product}
 
                     ></CardItems>)
                 }
+                <Link to='/products ' className='mx-auto bg-light font-bold text-dark ' >
+                    <Button className='mx-auto bg-light font-bold text-dark ' variant="outline-primary">Manage Inventory</Button></Link>
             </div>
-        // </div>
+        </div>
 
     );
 };
