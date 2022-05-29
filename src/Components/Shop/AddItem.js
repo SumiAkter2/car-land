@@ -17,7 +17,7 @@ const AddItem = () => {
         data.email = user?.email;
         console.log(data.email);
         console.log(data);
-        const url = `http://localhost:5000/product`;
+        const url = `https://protected-sea-84820.herokuapp.com/product`;
         fetch(url, {
 
             method: "POST",

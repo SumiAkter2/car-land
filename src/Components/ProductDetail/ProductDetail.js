@@ -8,7 +8,7 @@ const ProductDetail = () => {
     const { productId } = useParams();
     const [product, setProduct] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/product/${productId}`;
+        const url = `https://protected-sea-84820.herokuapp.com/product/${productId}`;
         fetch(url)
             .then((res) => res.json())
             .then((data) => setProduct(data));
@@ -22,7 +22,7 @@ const ProductDetail = () => {
         quantity = parseInt(quantity) - 1;
 
         // console.log(quantity);
-        const url = `http://localhost:5000/quantity/${productId}`;
+        const url = `https://protected-sea-84820.herokuapp.com/quantity/${productId}`;
         fetch(url, {
             method: "PUT",
             headers: {
@@ -49,7 +49,7 @@ const ProductDetail = () => {
             quantity = parseInt(quantity) + addQuantity;
             const updateInventory = { quantity };
             console.log(updateInventory);
-            const url = `http://localhost:5000/quantity/${productId}`;
+            const url = `https://protected-sea-84820.herokuapp.com/quantity/${productId}`;
             fetch(url, {
                 method: "PUT",
                 headers: {

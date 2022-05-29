@@ -10,11 +10,11 @@ import './Services.css';
 const Services = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/product`
+        const url = `https://protected-sea-84820.herokuapp.com/product`
         fetch(url)
             .then(res => res.json())
             .then(data => setProducts(data))
-        //'http://localhost:5000/products
+        //'https://protected-sea-84820.herokuapp.com/products
     }, [])
 
     console.log(products);

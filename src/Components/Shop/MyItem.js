@@ -16,7 +16,7 @@ const MyItem = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm("Are you sure?");
         if (proceed) {
-            const url = `https://localhost:5000/product/${id}`;
+            const url = `https://protected-sea-84820.herokuapp.com/product/${id}`;
             fetch(url, {
                 method: "DELETE",
             })
@@ -36,7 +36,7 @@ const MyItem = () => {
         console.log(email);
 
         const getItems = async () => {
-            const url = `https://localhost:5000/myItems?email=${email}`;
+            const url = `https://protected-sea-84820.herokuapp.com/myItems?email=${email}`;
             try {
                 const { data } = await axios.get(url, {
                     // headers: {

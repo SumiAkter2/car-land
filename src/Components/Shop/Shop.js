@@ -7,18 +7,18 @@ const Shop = () => {
 
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/product`
+        const url = `https://protected-sea-84820.herokuapp.com/product`
         fetch(url)
             .then(res => res.json())
             .then(data => setProducts(data))
-        //'http://localhost:5000/products
+        //'https://protected-sea-84820.herokuapp.com/products
     }, [])
 
 
     const handleDelete = (id) => {
         const proceed = window.confirm("Are you sure?");
         if (proceed) {
-            const url = `http://localhost:5000/product/${id}`;
+            const url = `https://protected-sea-84820.herokuapp.com/product/${id}`;
             fetch(url, {
                 method: "DELETE",
             })
