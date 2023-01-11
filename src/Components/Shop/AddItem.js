@@ -32,8 +32,8 @@ const AddItem = () => {
       });
   };
   return (
-    <div className="container mx-auto">
-      <div className="fs-3 fw-bold text-uppercase ">Add Your Product :</div>
+    <div className="container mx-auto my-5">
+      <div className="fs-3 fw-bold text-uppercase text-center my-5">Add Your Product </div>
       <form onSubmit={handleSubmit(onSubmit)} className="w-50 mx-auto">
         <InputGroup className="mb-3">
           <FormControl

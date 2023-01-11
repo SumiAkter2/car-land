@@ -1,3 +1,8 @@
 .bg-title{
     background-color: gray;
 }
+Link {
+    list-style: none;
+    text-decoration: none;
+    
+}

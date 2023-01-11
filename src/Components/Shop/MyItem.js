@@ -60,7 +60,7 @@ const MyItem = () => {
     <div>
       <div>
         <div className="container">
-          <div className="AllItems-section mt-5">
+          <div className=" mt-5 gap-5">
             {myItems.map((item) => (
               <ShowMyitems
                 key={item._id}
